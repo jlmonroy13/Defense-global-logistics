@@ -1,0 +1,101 @@
+$naranja: #ED7F00; 
+$azul: #0B4379;
+$gris-oscuro: #404040;
+$azul-oscuro: #18212A;
+$gris-claro: #C2C2C2;
+$gris-fondo: #F5F5F5;
+
+
+#about-us {
+	background-color: $gris-fondo;
+	padding: 30px 0;
+	.container {
+		h2 {
+			text-align: center;
+			font-family: "Bebas-Neue";
+			font-size: 2.4em;
+			color: $gris-oscuro;
+			span {
+				color: $naranja;
+			}
+		}
+
+		.titulo-secciones {
+			border-top: 2px solid $gris-claro;
+			width: 60px;
+			margin-top: -7px;
+		}
+
+		p {			
+			text-align: center;
+			font-size: 1.53em;
+			font-family: "Agency-fb";
+		}
+		.col-md-6 {
+			padding: 0 6%;
+			margin-top: 30px;
+			text-align: center;
+			hr {
+				border-top: 1px solid $gris-claro;
+				width: 60px;
+				margin: 0 10px 6px 10px;
+				display: inline-block;
+			}
+			h3 {
+				display: inline;
+				font-family: "Agency-fb";
+				font-size: 2.1em;
+				color: $gris-oscuro;
+				margin-bottom: 1px;
+				span {
+					color: $azul;
+				}
+			}
+			p {
+				margin-top: 15px;
+			}
+		}
+	}
+}
+
+#our-experience {
+	background: url("../img/our-experience.jpg") no-repeat;
+	background-size: cover;
+	height: 300px;
+	.container {
+		.row {
+			.col-md-6 {
+				padding-left: 5%;
+				h2 {	
+					margin-top: 50px;		
+					font-family: "Bebas-Neue";
+					font-size: 2.4em;
+					color: $naranja;
+					span {
+						color: white;
+					}			
+				}
+				p {
+					font-size: 1.53em;
+					font-family: "Agency-fb";
+					color: white;
+					margin-bottom: 25px;
+				}
+				a {
+					font-family: "Bebas-Neue";
+					font-size: 1.6em;
+					color: white;
+					border: 1px solid white;
+					border-radius: 0;
+					padding: 6px 15px;
+					&:hover {
+						border-color: $naranja;
+						color: $naranja;
+					}
+				}
+			}
+		}
+	}
+
+
+}
