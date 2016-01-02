@@ -1,0 +1,133 @@
+$naranja: #ED7F00; 
+$azul: #0B4379;
+$gris-oscuro: #404040;
+$azul-oscuro: #18212A;
+$gris-claro: #C2C2C2;
+$gris-fondo: #F5F5F5;
+/*==== home styles =====*/
+body {
+	header {
+		height: 60px;
+		.navbar {
+			background-color: rgba(0,0,0,0.35);
+			.container {
+				.navbar-header {
+					button {
+						span {
+							background-color: #fff;
+						}
+					}
+					a.navbar-brand {
+						padding: 5px 15px;
+						img {
+							height: 40px;
+						}
+					}
+				}
+				.collapse {
+					ul.nav {
+						li {
+							a {
+								color: #fff;
+								font-family: "Agency-fb";
+								font-size: 1.5714em;
+								padding: 15px 0 5px 0;
+								margin: 0 15px;
+								&:hover {
+									background-color: transparent !important;
+									border-bottom: 1px solid $naranja;
+								}
+							}
+							&:last-child {
+								margin-left: 40px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+#home {
+	margin-top: -60px;
+	height: 100vh;
+	background: url("../img/airplane_bckg.jpg") no-repeat;
+	background-size: 100%;
+	article {
+		padding-top: 300px;
+		.container {
+			text-align: center;
+			h1 {
+				font-size: 7.1428em;
+				color: $naranja;
+				font-family: "Bebas-Neue";
+				margin-bottom: -20px;
+				span {
+					color: #fff;
+					&:first-child {
+						font-size: 0.85em;
+					}
+					&:last-child {
+						font-size: 1em;
+					}
+				}
+			}
+			hr {
+				width: 70px;
+				display: inline-block;
+				border-top: 2px solid #fff;
+			}
+			p {
+				display: inline;
+				color: #fff;
+				font-family: "Agency-fb";
+				font-size: 3.5714em;
+				text-align: center;
+				margin: 0 30px;
+			}
+			a.btn {
+				display: block;
+				color: #fff;
+				border: 1px solid #fff;
+				width: 150px;
+				border-radius: 0;
+				margin: 15px auto 0 auto;
+				font-family: "Bebas-Neue";
+				font-size: 1.7857em;
+				&:hover {
+					background-color: #fff;
+					color: #5e5e5e;
+				}
+			}
+		}
+	} 
+}
+
+.bootstrap-switch-off .bootstrap-switch-handle-on ~ .bootstrap-switch-handle-off.bootstrap-switch-default:before {
+    background-color: $naranja !important;
+    border-color: $naranja !important;
+    border: 1px;
+}
+.bootstrap-switch-primary ~ .bootstrap-switch-handle-off:before {
+    background-color: $naranja !important;
+    border-color: $naranja !important;
+    border: 1px;
+}
+
+.bootstrap-switch-on .bootstrap-switch-primary ~ .bootstrap-switch-handle-off {
+	box-shadow: inset 16px 0 0 $naranja !important;
+}
+
+.bootstrap-switch-on .bootstrap-switch-info ~ .bootstrap-switch-handle-off {
+	box-shadow: inset 16px 0 0 $naranja !important;
+}
+
+.bootstrap-switch-primary {
+    color: #fff;
+    background-color: rgba(255,255,255,0.4);
+}
+
+.bootstrap-switch-default {
+    color: #fff;
+    background-color: rgba(255,255,255,0.4);
+}
