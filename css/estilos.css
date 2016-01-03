@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*========== Developed by Jorge Monroy and Selvio P├®rez ============*/
+/*========== Developed by Jorge Monroy and Selvio Pérez ============*/
 @font-face {
   font-family: "Bebas-Neue";
   src: url("../fonts/BebasNeue.otf"); }
@@ -35,7 +35,7 @@ body header {
   background: url("../img/airplane_bckg.jpg") no-repeat;
   background-size: 100%; }
   #home article {
-    padding-top: 300px; }
+    padding-top: 250px; }
     #home article .container {
       text-align: center; }
       #home article .container h1 {
