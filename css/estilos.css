@@ -136,11 +136,63 @@ body header {
     #about-us .container .col-md-6 p {
       margin-top: 15px; }
 
+/*==== services styles =====*/
+#our-services {
+  padding: 30px 0 50px 0; }
+  #our-services .container h2 {
+    text-align: center;
+    font-family: "Bebas-Neue";
+    font-size: 2.4em;
+    color: #ED7F00; }
+    #our-services .container h2 span {
+      color: #404040; }
+  #our-services .container .titulo-secciones {
+    border-top: 2px solid #C2C2C2;
+    width: 60px;
+    margin-top: -7px;
+    margin-bottom: 40px; }
+  #our-services .container .tabs-services {
+    text-align: center; }
+    #our-services .container .tabs-services ul.nav-tabs {
+      display: inline-block;
+      border: none;
+      margin-bottom: 40px; }
+      #our-services .container .tabs-services ul.nav-tabs li {
+        padding: 0px 30px;
+        border: none; }
+        #our-services .container .tabs-services ul.nav-tabs li a {
+          color: #404040;
+          font-family: "Agency-fb";
+          font-size: 2em;
+          border-bottom: 1px solid #fff;
+          padding: 0; }
+          #our-services .container .tabs-services ul.nav-tabs li a:hover {
+            border: none;
+            background-color: transparent;
+            border-bottom: 1px solid #0B4379;
+            padding: 0; }
+      #our-services .container .tabs-services ul.nav-tabs li.active a {
+        border: none;
+        border-bottom: 1px solid #fff;
+        color: #ED7F00; }
+    #our-services .container .tabs-services .tab-content .tab-pane .row div {
+      position: relative; }
+      #our-services .container .tabs-services .tab-content .tab-pane .row div img {
+        position: relative;
+        width: 100%; }
+      #our-services .container .tabs-services .tab-content .tab-pane .row div p {
+        color: #404040;
+        font-family: "Agency-fb";
+        font-size: 1.5714em;
+        text-align: left;
+        margin-top: 30px;
+        padding-left: 70px; }
+
 /*==== our experience styles =====*/
 #our-experience {
-  background: url("../img/our-experience.jpg") no-repeat;
   background-size: cover;
-  height: 300px; }
+  height: 300px;
+  width: 100%; }
   #our-experience .container .row .col-md-6 {
     padding-left: 5%; }
     #our-experience .container .row .col-md-6 h2 {
@@ -165,6 +217,22 @@ body header {
       #our-experience .container .row .col-md-6 a:hover {
         border-color: #ED7F00;
         color: #ED7F00; }
+
+/*==== contact us styles =====*/
+#contact-us {
+  padding: 30px 0 50px 0; }
+  #contact-us .container h2 {
+    text-align: center;
+    font-family: "Bebas-Neue";
+    font-size: 2.4em;
+    color: #404040; }
+    #contact-us .container h2 span {
+      color: #ED7F00; }
+  #contact-us .container .titulo-secciones {
+    border-top: 2px solid #C2C2C2;
+    width: 60px;
+    margin-top: -7px;
+    margin-bottom: 40px; }
 
 /*==== footer styles =====*/
 #footer {

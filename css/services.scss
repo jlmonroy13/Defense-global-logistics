@@ -1,0 +1,83 @@
+$naranja: #ED7F00; 
+$azul: #0B4379;
+$gris-oscuro: #404040;
+$azul-oscuro: #18212A;
+$gris-claro: #C2C2C2;
+$gris-fondo: #F5F5F5;
+/*==== services styles =====*/
+#our-services {
+	padding: 30px 0 50px 0;
+	.container {
+		h2 {
+			text-align: center;
+			font-family: "Bebas-Neue";
+			font-size: 2.4em;
+			color: $naranja;
+			span {
+				color: $gris-oscuro;
+			}
+		}
+		.titulo-secciones {
+			border-top: 2px solid $gris-claro;
+			width: 60px;
+			margin-top: -7px;
+			margin-bottom: 40px;
+		}
+		.tabs-services {
+			text-align: center;
+			ul.nav-tabs {
+				display: inline-block;
+				border: none;
+				margin-bottom: 40px;
+				li {
+				    padding: 0px 30px;
+				    border: none;
+					a {
+						color: $gris-oscuro;
+						font-family: "Agency-fb";
+						font-size: 2em;
+						border-bottom: 1px solid #fff;
+						padding: 0;
+						&:hover {
+							border: none;
+							background-color: transparent;
+							border-bottom: 1px solid $azul;
+							padding: 0;
+						}
+					}
+				}
+				li.active {
+					a {
+						border: none;
+						border-bottom: 1px solid #fff;
+						color: $naranja;
+					}
+				}
+			}
+			.tab-content {
+				.tab-pane {
+					.row {
+						div {
+							position: relative;
+							img {
+								position: relative;
+								width: 100%;
+							}
+							p {
+								color: $gris-oscuro;
+								font-family: "Agency-fb";
+								font-size: 1.5714em;
+								text-align: left;
+								margin-top: 30px;
+								padding-left: 70px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+		
