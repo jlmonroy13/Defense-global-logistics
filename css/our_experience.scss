@@ -1,0 +1,49 @@
+$naranja: #ED7F00; 
+$azul: #0B4379;
+$gris-oscuro: #404040;
+$azul-oscuro: #18212A;
+$gris-claro: #C2C2C2;
+$gris-fondo: #F5F5F5;
+
+/*==== our experience styles =====*/
+#our-experience {
+	background: url("../img/our-experience.jpg") no-repeat;
+	background-size: cover;
+	height: 300px;
+	.container {
+		.row {
+			.col-md-6 {
+				padding-left: 5%;
+				h2 {	
+					margin-top: 50px;		
+					font-family: "Bebas-Neue";
+					font-size: 2.4em;
+					color: $naranja;
+					span {
+						color: white;
+					}			
+				}
+				p {
+					font-size: 1.53em;
+					font-family: "Agency-fb";
+					color: white;
+					margin-bottom: 25px;
+				}
+				a {
+					font-family: "Bebas-Neue";
+					font-size: 1.6em;
+					color: white;
+					border: 1px solid white;
+					border-radius: 0;
+					padding: 6px 15px;
+					&:hover {
+						border-color: $naranja;
+						color: $naranja;
+					}
+				}
+			}
+		}
+	}
+
+
+}
