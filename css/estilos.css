@@ -6,6 +6,10 @@
   font-family: "Agency-fb";
   src: url("../fonts/agency-fb.ttf"); }
 /*==== home styles =====*/
+body a {
+  color: #fff;
+  font-family: "Agency-fb";
+  font-size: 1.65em; }
 body header {
   height: 60px; }
   body header .navbar {
@@ -32,6 +36,9 @@ body header {
           background-color: transparent; }
         body header .navbar .container .collapse ul.nav li a:focus {
           background-color: transparent; }
+        @media (max-width: 767px) {
+          body header .navbar .container .collapse ul.nav li a {
+            display: inline-block; } }
       body header .navbar .container .collapse ul.nav li:last-child {
         margin-left: 40px; }
 
@@ -39,9 +46,12 @@ body header {
   margin-top: -60px;
   height: 100vh;
   background: url("../img/airplane_bckg.jpg") no-repeat;
-  background-size: 100%; }
+  background-size: cover; }
   #home article {
     padding-top: 250px; }
+    @media (max-width: 399px) {
+      #home article {
+        padding-top: 150px; } }
     #home article .container {
       text-align: center; }
       #home article .container h1 {
@@ -61,10 +71,20 @@ body header {
         @media (max-width: 991px) {
           #home article .container h1 {
             font-size: 5em; } }
+        @media (max-width: 689px) {
+          #home article .container h1 {
+            font-size: 4.2857em; } }
+        @media (max-width: 595px) {
+          #home article .container h1 {
+            line-height: 0.9;
+            margin-bottom: 5px; } }
       #home article .container hr {
         width: 70px;
         display: inline-block;
         border-top: 2px solid #fff; }
+        @media (max-width: 595px) {
+          #home article .container hr {
+            display: none; } }
       #home article .container p {
         display: inline;
         color: #fff;
@@ -78,6 +98,11 @@ body header {
         @media (max-width: 991px) {
           #home article .container p {
             font-size: 2.1428em; } }
+        @media (max-width: 443px) {
+          #home article .container p {
+            line-height: 0.9;
+            text-align: center;
+            margin: 0; } }
       #home article .container a.btn {
         display: block;
         color: #fff;
@@ -90,6 +115,9 @@ body header {
         #home article .container a.btn:hover {
           background-color: #fff;
           color: #5e5e5e; }
+        @media (max-width: 1199px) {
+          #home article .container a.btn {
+            font-size: 1.4285em; } }
 
 .bootstrap-switch-off .bootstrap-switch-handle-on ~ .bootstrap-switch-handle-off.bootstrap-switch-default:before {
   background-color: #ED7F00 !important;
@@ -118,7 +146,7 @@ body header {
 /*==== about us styles =====*/
 #about-us {
   background-color: #F5F5F5;
-  padding: 30px 0; }
+  padding: 30px 10px; }
   #about-us .container h2 {
     text-align: center;
     font-family: "Bebas-Neue";
@@ -156,7 +184,7 @@ body header {
 
 /*==== services styles =====*/
 #our-services {
-  padding: 30px 0 50px 0; }
+  padding: 30px 10px 50px 10px; }
   #our-services .container h2 {
     text-align: center;
     font-family: "Bebas-Neue";
@@ -178,6 +206,9 @@ body header {
       #our-services .container .tabs-services ul.nav-tabs li {
         padding: 0px 30px;
         border: none; }
+        @media (max-width: 1300px) {
+          #our-services .container .tabs-services ul.nav-tabs li {
+            padding: 0px 2vw; } }
         #our-services .container .tabs-services ul.nav-tabs li a {
           color: #404040;
           font-family: "Agency-fb";
@@ -205,12 +236,17 @@ body header {
         text-align: left;
         margin-top: 30px;
         padding-left: 70px; }
+        @media (max-width: 1199px) {
+          #our-services .container .tabs-services .tab-content .tab-pane .row div p {
+            padding-left: 0;
+            margin-top: 0; } }
 
 /*==== our experience styles =====*/
 #our-experience {
   background: url("../img/our-experience.jpg") no-repeat;
   background-size: cover;
-  height: 300px; }
+  min-height: 300px;
+  padding-bottom: 50px; }
   #our-experience .container .row .col-md-6 {
     padding-left: 5%; }
     #our-experience .container .row .col-md-6 h2 {
@@ -225,6 +261,9 @@ body header {
       font-family: "Agency-fb";
       color: white;
       margin-bottom: 25px; }
+      @media (max-width: 410px) {
+        #our-experience .container .row .col-md-6 p {
+          padding-right: 5px; } }
     #our-experience .container .row .col-md-6 a {
       font-family: "Bebas-Neue";
       font-size: 1.6em;

@@ -6,6 +6,11 @@ $gris-claro: #C2C2C2;
 $gris-fondo: #F5F5F5;
 /*==== home styles =====*/
 body {
+	a {
+		color: #fff;
+		font-family: "Agency-fb";
+		font-size: 1.65em;
+	}
 	header {
 		height: 60px;
 		.navbar {
@@ -46,6 +51,9 @@ body {
 								&:focus {
 									background-color: transparent;
 								}
+								@media (max-width: 767px) {
+									display: inline-block;
+								}
 							}
 							&:last-child {
 								margin-left: 40px;
@@ -61,9 +69,12 @@ body {
 	margin-top: -60px;
 	height: 100vh;
 	background: url("../img/airplane_bckg.jpg") no-repeat;
-	background-size: 100%;
+	background-size: cover; 
 	article {
 		padding-top: 250px;
+		@media (max-width: 399px) {
+			padding-top: 150px;
+		}
 		.container {
 			text-align: center;
 			h1 {
@@ -86,11 +97,21 @@ body {
 				@media (max-width: 991px) {
 					font-size: 5em;
 				}
+				@media (max-width: 689px) {
+					font-size: 4.2857em;
+				}
+				@media (max-width: 595px) {
+					line-height: 0.9;
+					margin-bottom: 5px;
+				}
 			}
 			hr {
 				width: 70px;
 				display: inline-block;
 				border-top: 2px solid #fff;
+				@media (max-width: 595px) {
+					display: none;
+				}
 			}
 			p {
 				display: inline;
@@ -105,6 +126,11 @@ body {
 				@media (max-width: 991px) {
 					font-size: 2.1428em;
 				}
+				@media (max-width: 443px) {
+					line-height: 0.9;
+					text-align: center;
+					margin: 0;
+				}
 			}
 			a.btn {
 				display: block;
@@ -118,6 +144,9 @@ body {
 				&:hover {
 					background-color: #fff;
 					color: #5e5e5e;
+				}
+				@media (max-width: 1199px) {
+					font-size: 1.4285em;
 				}
 			}
 		}

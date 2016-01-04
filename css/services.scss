@@ -6,7 +6,7 @@ $gris-claro: #C2C2C2;
 $gris-fondo: #F5F5F5;
 /*==== services styles =====*/
 #our-services {
-	padding: 30px 0 50px 0;
+	padding: 30px 10px 50px 10px;
 	.container {
 		h2 {
 			text-align: center;
@@ -32,6 +32,9 @@ $gris-fondo: #F5F5F5;
 				li {
 				    padding: 0px 30px;
 				    border: none;
+				    @media (max-width: 1300px) {
+						padding: 0px 2vw;
+					}
 					a {
 						color: $gris-oscuro;
 						font-family: "Agency-fb";
@@ -70,6 +73,10 @@ $gris-fondo: #F5F5F5;
 								text-align: left;
 								margin-top: 30px;
 								padding-left: 70px;
+								@media (max-width: 1199px) {
+									padding-left: 0;
+									margin-top: 0;
+								}
 							}
 						}
 					}
