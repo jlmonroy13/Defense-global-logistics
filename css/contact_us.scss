@@ -4,6 +4,7 @@ $gris-oscuro: #404040;
 $azul-oscuro: #18212A;
 $gris-claro: #C2C2C2;
 $gris-fondo: #F5F5F5;
+
 /*==== contact us styles =====*/
 #contact-us {
 	padding: 30px 0 50px 0;
@@ -23,5 +24,87 @@ $gris-fondo: #F5F5F5;
 			margin-top: -7px;
 			margin-bottom: 40px;
 		}
+		div:first-child {
+			a {
+				font-size: 1.53em;
+				font-family: "Agency-fb";
+				color: $gris-oscuro;				
+				display: block;
+			}
+        	a:nth-child(2) { color: $naranja; margin-bottom: 15px; }
+			.contact_form_googlemaps {
+				position: relative;
+		        padding-bottom: 60%; // This is the aspect ratio
+		        height: 0;
+		        overflow: hidden;
+		        iframe {
+	            	position: absolute;
+	                top: 0;
+	                left: 0;
+	                width: 85% !important;
+         		}
+         	}
+         	p {
+         		font-size: 1.53em;
+				font-family: "Agency-fb";
+				color: $gris-oscuro;				
+				display: block;
+				margin-bottom: 0;
+         	}
+         	p:nth-child(4) {
+         		margin-top: 15px;
+         	}
+         	p:last-child {
+         		margin-top: -5px;
+         	}
+		}
+		div:last-child {
+	        form {
+		        margin-top: 30px;
+		        div {
+		            input {
+		            	color: $gris-oscuro;
+		            	border-radius: 0px;
+		              	font-family: "Agency-fb";
+		              	font-size: 1.5em;
+		            }
+		            label {
+		              	color: $gris-oscuro;
+		              	font-family: "Bebas-Neue";
+		              	font-size: 1.6em;
+		              	font-weight: 500;
+		            }
+		            textarea {
+		            	color: $gris-oscuro;
+		            	border-radius: 0px;
+		              	font-family: "Agency-fb";
+		              	font-size: 1.5em;
+		              	height: 145px;
+		            }
+		            span {
+		              	color: $gris-oscuro;
+		              	font-family: "Agency-fb";
+		              	font-size: 1.35em;
+		            }
+		        }
+	          	button {
+	                padding: 7px 25px;
+	                float: right;
+	                margin-bottom: 10px;
+	                color: white;
+				    font-size: 1.6em;
+				    font-family: "Bebas-Neue";
+				    background-color: $naranja;
+				    border-radius: 0;
+				    border: 2px solid $naranja;
+				    &:hover {
+				    	color: $naranja;
+				    	background-color: white;				    	
+				    }
+          		}
+	        }
+      	}
 	}
 }
+
+

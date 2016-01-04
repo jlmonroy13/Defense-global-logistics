@@ -7,10 +7,9 @@ $gris-fondo: #F5F5F5;
 
 /*==== our experience styles =====*/
 #our-experience {
-	// background: url("../img/our-experience.jpg") no-repeat;
+	background: url("../img/our-experience.jpg") no-repeat;
 	background-size: cover;
-	height: 300px;
-	width: 100%;
+	height: 300px;	
 	.container {
 		.row {
 			.col-md-6 {
@@ -45,6 +44,4 @@ $gris-fondo: #F5F5F5;
 			}
 		}
 	}
-
-
 }
