@@ -8,7 +8,7 @@ $gris-fondo: #F5F5F5;
 /*==== footer styles =====*/
 #footer {
 	background-color: $azul-oscuro;
-	padding: 30px 0;
+	padding: 30px 0 40px 0;
 	.container {
 		.col-md-3 {
 			padding-left: 5%;	
@@ -16,6 +16,9 @@ $gris-fondo: #F5F5F5;
 				font-family: "Bebas-Neue";
 				font-size: 2.1em;
 				color: white;
+				@media (max-width: 767px) {
+					margin-top: 30px;
+		        }
 			}
 			p {
 				font-size: 1.4em;

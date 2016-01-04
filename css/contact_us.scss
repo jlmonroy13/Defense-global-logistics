@@ -61,6 +61,9 @@ $gris-fondo: #F5F5F5;
 		div:last-child {
 	        form {
 		        margin-top: 30px;
+		        @media (max-width: 767px) {
+					margin-top: 50px;
+		        }
 		        div {
 		            input {
 		            	color: $gris-oscuro;

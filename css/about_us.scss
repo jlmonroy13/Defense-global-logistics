@@ -50,6 +50,12 @@ $gris-fondo: #F5F5F5;
 					color: $azul;
 				}
 			}
+			h3.ES {
+				display: none;
+			}
+			h3.ESmision {
+				display: inline !important;
+			}
 			p {
 				margin-top: 15px;
 			}

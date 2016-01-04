@@ -4,6 +4,9 @@ $gris-oscuro: #404040;
 $azul-oscuro: #18212A;
 $gris-claro: #C2C2C2;
 $gris-fondo: #F5F5F5;
+body .ES {
+	display: none; 
+}
 /*==== home styles =====*/
 body {
 	a {
@@ -68,13 +71,19 @@ body {
 #home {
 	margin-top: -60px;
 	height: 100vh;
-	background: url("../img/airplane_bckg.jpg") no-repeat;
-	background-size: cover; 
+	background: url("../img/airplane_bckg1.jpg") no-repeat;
+	background-size: cover;
 	article {
 		padding-top: 250px;
 		@media (max-width: 399px) {
 			padding-top: 150px;
 		}
+		@media (min-height: 675px) {
+			padding-top: 350px;
+		}
+		@media (min-height: 700px) {
+			padding-top: 400px;
+		} 
 		.container {
 			text-align: center;
 			h1 {
@@ -148,6 +157,9 @@ body {
 				@media (max-width: 1199px) {
 					font-size: 1.4285em;
 				}
+			}
+			a.ES {
+				display: none;
 			}
 		}
 	} 

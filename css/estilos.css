@@ -5,6 +5,9 @@
 @font-face {
   font-family: "Agency-fb";
   src: url("../fonts/agency-fb.ttf"); }
+body .ES {
+  display: none; }
+
 /*==== home styles =====*/
 body a {
   color: #fff;
@@ -45,13 +48,19 @@ body header {
 #home {
   margin-top: -60px;
   height: 100vh;
-  background: url("../img/airplane_bckg.jpg") no-repeat;
+  background: url("../img/airplane_bckg1.jpg") no-repeat;
   background-size: cover; }
   #home article {
     padding-top: 250px; }
     @media (max-width: 399px) {
       #home article {
         padding-top: 150px; } }
+    @media (min-height: 675px) {
+      #home article {
+        padding-top: 350px; } }
+    @media (min-height: 700px) {
+      #home article {
+        padding-top: 400px; } }
     #home article .container {
       text-align: center; }
       #home article .container h1 {
@@ -118,6 +127,8 @@ body header {
         @media (max-width: 1199px) {
           #home article .container a.btn {
             font-size: 1.4285em; } }
+      #home article .container a.ES {
+        display: none; }
 
 .bootstrap-switch-off .bootstrap-switch-handle-on ~ .bootstrap-switch-handle-off.bootstrap-switch-default:before {
   background-color: #ED7F00 !important;
@@ -179,6 +190,10 @@ body header {
       margin-bottom: 1px; }
       #about-us .container .col-md-6 h3 span {
         color: #0B4379; }
+    #about-us .container .col-md-6 h3.ES {
+      display: none; }
+    #about-us .container .col-md-6 h3.ESmision {
+      display: inline !important; }
     #about-us .container .col-md-6 p {
       margin-top: 15px; }
 
@@ -274,6 +289,8 @@ body header {
       #our-experience .container .row .col-md-6 a:hover {
         border-color: #ED7F00;
         color: #ED7F00; }
+    #our-experience .container .row .col-md-6 a.ESmision {
+      display: inline-block !important; }
 
 /*==== contact us styles =====*/
 #contact-us {
@@ -320,6 +337,9 @@ body header {
     margin-top: -5px; }
   #contact-us .container div:last-child form {
     margin-top: 30px; }
+    @media (max-width: 767px) {
+      #contact-us .container div:last-child form {
+        margin-top: 50px; } }
     #contact-us .container div:last-child form div input {
       color: #404040;
       border-radius: 0px;
@@ -357,13 +377,16 @@ body header {
 /*==== footer styles =====*/
 #footer {
   background-color: #18212A;
-  padding: 30px 0; }
+  padding: 30px 0 40px 0; }
   #footer .container .col-md-3 {
     padding-left: 5%; }
     #footer .container .col-md-3 h4 {
       font-family: "Bebas-Neue";
       font-size: 2.1em;
       color: white; }
+      @media (max-width: 767px) {
+        #footer .container .col-md-3 h4 {
+          margin-top: 30px; } }
     #footer .container .col-md-3 p {
       font-size: 1.4em;
       font-family: "Agency-fb";

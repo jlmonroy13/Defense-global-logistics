@@ -2,6 +2,11 @@
 $(document).ready(function(){	
 	$('.bootstrap-switch-handle-on').text('EN');
 	$('.bootstrap-switch-handle-off').text('ES');
+  $('.bootstrap-switch').click(function() {
+    $(".ES").toggleClass('show');
+    $(".EN").toggleClass('hide');
+    $(".ES1").toggleClass('ESmision');
+  });
 });
 
 /*=======MENU  NAVBAR DOWN===================*/
@@ -32,5 +37,29 @@ $(document).ready(function(){
   $(".ourservices").click(function() {
     $("html, body").animate({
       scrollTop: $("#our-services").offset().top
+    }, "slow");
+  });
+
+  $(".fli1").click(function() {
+      $("html, body").animate({
+        scrollTop: $("#about-us").offset().top
+      }, "slow");
+    });
+
+    $(".fli2").click(function() {
+      $("html, body").animate({
+        scrollTop: $("#our-services").offset().top
+      }, "slow");
+    });
+
+    $(".fli3").click(function() {
+      $("html, body").animate({
+        scrollTop: $("#our-experience").offset().top
+      }, "slow");
+    });
+
+  $(".fli4").click(function() {
+    $("html, body").animate({
+      scrollTop: $("#contact-us").offset().top
     }, "slow");
   });
