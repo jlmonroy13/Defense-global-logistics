@@ -11,7 +11,7 @@ $gris-fondo: #F5F5F5;
 	padding: 30px 0 40px 0;
 	.container {
 		.col-md-3 {
-			padding-left: 5%;	
+			padding-left: 5%;
 			h4 {
 				font-family: "Bebas-Neue";
 				font-size: 2.1em;
@@ -27,7 +27,7 @@ $gris-fondo: #F5F5F5;
 				margin-bottom: 0;
 				opacity: 0.5;
 			}
-			a {
+			a.btn {
 				opacity: 0.5;
 				display: block;
 				text-decoration: none;
@@ -66,8 +66,21 @@ $gris-fondo: #F5F5F5;
 						border: none;
 						margin-bottom: 0;
 						padding: 0;
+						color: white;
+						opacity: 0.5;
+						font-size: 1.4em;
+						font-family: "Agency-fb";
+						&:hover {
+							opacity: 1;
+							text-decoration: none;
+						}
 					}
 				}
+			}
+		}
+		.last {
+			@media (max-width: 450px) {
+				height: 160px;
 			}
 		}
 	}

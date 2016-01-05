@@ -397,7 +397,7 @@ body header {
       color: white;
       margin-bottom: 0;
       opacity: 0.5; }
-    #footer .container .col-md-3 a {
+    #footer .container .col-md-3 a.btn {
       opacity: 0.5;
       display: block;
       text-decoration: none;
@@ -409,15 +409,15 @@ body header {
       margin-bottom: 7px;
       padding: 5px;
       width: 115px; }
-      #footer .container .col-md-3 a:hover {
+      #footer .container .col-md-3 a.btn:hover {
         opacity: 1; }
-      #footer .container .col-md-3 a .twitter {
+      #footer .container .col-md-3 a.btn .twitter {
         margin-left: 20px;
         display: inline-block;
         background: url("../img/social-media-icon.png") no-repeat 0 -3px;
         width: 19px;
         height: 15px; }
-      #footer .container .col-md-3 a .facebook {
+      #footer .container .col-md-3 a.btn .facebook {
         margin-left: 15px;
         display: inline-block;
         background: url("../img/social-media-icon.png") no-repeat -20px 0;
@@ -431,6 +431,16 @@ body header {
         #footer .container .col-md-3 ul li a {
           border: none;
           margin-bottom: 0;
-          padding: 0; }
+          padding: 0;
+          color: white;
+          opacity: 0.5;
+          font-size: 1.4em;
+          font-family: "Agency-fb"; }
+          #footer .container .col-md-3 ul li a:hover {
+            opacity: 1;
+            text-decoration: none; }
+  @media (max-width: 450px) {
+    #footer .container .last {
+      height: 160px; } }
 
 /*# sourceMappingURL=estilos.css.map */
