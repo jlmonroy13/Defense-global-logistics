@@ -39,6 +39,9 @@ $gris-fondo: #F5F5F5;
 				width: 60px;
 				margin: 0 10px 6px 10px;
 				display: inline-block;
+				@media (max-width: 400px) {
+					width: 40px;
+				}
 			}
 			h3 {
 				display: inline;
