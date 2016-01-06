@@ -39,9 +39,12 @@ $gris-fondo: #F5F5F5;
 				margin-bottom: 7px;
 				padding: 5px;
 				width: 115px;
+				@media (max-width: 540px) {
+					margin: 7px auto;
+				}
 				&:hover {
 					opacity: 1;
-				}
+				}				
 				.twitter {
 					margin-left: 20px;
 					display: inline-block;
@@ -81,6 +84,12 @@ $gris-fondo: #F5F5F5;
 		.last {
 			@media (max-width: 450px) {
 				height: 160px;
+			}
+		}
+		.col-xs-6 {
+			@media (max-width: 540px) {
+				width: 100%;
+				text-align: center;
 			}
 		}
 	}

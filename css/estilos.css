@@ -480,6 +480,9 @@ body header {
       margin-bottom: 7px;
       padding: 5px;
       width: 115px; }
+      @media (max-width: 540px) {
+        #footer .container .col-md-3 a.btn {
+          margin: 7px auto; } }
       #footer .container .col-md-3 a.btn:hover {
         opacity: 1; }
       #footer .container .col-md-3 a.btn .twitter {
@@ -513,5 +516,9 @@ body header {
   @media (max-width: 450px) {
     #footer .container .last {
       height: 160px; } }
+  @media (max-width: 540px) {
+    #footer .container .col-xs-6 {
+      width: 100%;
+      text-align: center; } }
 
 /*# sourceMappingURL=estilos.css.map */
