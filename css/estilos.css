@@ -18,6 +18,9 @@ body header {
   body header .navbar {
     background-color: rgba(0, 0, 0, 0.35);
     min-height: 70px; }
+    @media (max-width: 399px) {
+      body header .navbar {
+        background-color: rgba(0, 0, 0, 0.55); } }
     body header .navbar .container .navbar-header button span {
       background-color: #fff; }
     body header .navbar .container .navbar-header a.navbar-brand {
@@ -42,8 +45,12 @@ body header {
         @media (max-width: 767px) {
           body header .navbar .container .collapse ul.nav li a {
             display: inline-block; } }
+        body header .navbar .container .collapse ul.nav li a .colornaranja {
+          color: #ED7F00; }
       body header .navbar .container .collapse ul.nav li:last-child {
         margin-left: 40px; }
+      body header .navbar .container .collapse ul.nav .mobileES2 {
+        display: none; }
 
 #home {
   margin-top: -60px;

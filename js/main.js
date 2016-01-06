@@ -7,6 +7,18 @@ $(document).ready(function(){
     $(".EN").toggleClass('hide');
     $(".ES1").toggleClass('ESmision');
   });
+  $('.ESEN').click(function() {
+    $(".ES").toggleClass('show');
+    $(".EN").toggleClass('hide');
+    $(".espanol").toggleClass('colornaranja');
+    $(".ingles").toggleClass('colornaranja');
+  });
+});
+$(window).on("orientationchange",function(){
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    $( ".desktopES" ).toggleClass('hide');
+    $( ".mobileES2" ).toggleClass('show');
+  }
 });
 
 /*=======MENU  NAVBAR DOWN===================*/
