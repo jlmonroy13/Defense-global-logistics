@@ -31,7 +31,10 @@ $gris-fondo: #F5F5F5;
 				color: $gris-oscuro;				
 				display: block;
 			}
-        	a:nth-child(2) { color: $naranja; margin-bottom: 15px; }
+			a.ES {
+				display: none;
+			}
+        	a:nth-child(3) { color: $naranja; margin-bottom: 15px; }
 			.contact_form_googlemaps {
 				position: relative;
 		        padding-bottom: 60%; // This is the aspect ratio

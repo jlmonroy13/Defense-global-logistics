@@ -387,7 +387,9 @@ body header {
     font-family: "Agency-fb";
     color: #404040;
     display: block; }
-  #contact-us .container div:first-child a:nth-child(2) {
+  #contact-us .container div:first-child a.ES {
+    display: none; }
+  #contact-us .container div:first-child a:nth-child(3) {
     color: #ED7F00;
     margin-bottom: 15px; }
   #contact-us .container div:first-child .contact_form_googlemaps {
