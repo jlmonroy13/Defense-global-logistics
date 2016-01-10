@@ -5,7 +5,7 @@
 @font-face {
   font-family: "Agency-fb";
   src: url("../fonts/agency-fb.ttf"); }
-body .ES {
+body .EN {
   display: none; }
 
 /*==== home styles =====*/
@@ -134,7 +134,7 @@ body header {
         @media (max-width: 1199px) {
           #home article .container a.btn {
             font-size: 1.4285em; } }
-      #home article .container a.ES {
+      #home article .container a.EN {
         display: none; }
 
 .bootstrap-switch-off .bootstrap-switch-handle-on ~ .bootstrap-switch-handle-off.bootstrap-switch-default:before {
@@ -200,7 +200,7 @@ body header {
       margin-bottom: 1px; }
       #about-us .container .col-md-6 h3 span {
         color: #0B4379; }
-    #about-us .container .col-md-6 h3.ES {
+    #about-us .container .col-md-6 h3.EN {
       display: none; }
     #about-us .container .col-md-6 h3.ESmision {
       display: inline !important; }
@@ -387,7 +387,7 @@ body header {
     font-family: "Agency-fb";
     color: #404040;
     display: block; }
-  #contact-us .container div:first-child a.ES {
+  #contact-us .container div:first-child a.EN {
     display: none; }
   #contact-us .container div:first-child a:nth-child(3) {
     color: #ED7F00;

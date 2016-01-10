@@ -1,15 +1,15 @@
 /*=======SWITCH ES/EN==============*/
 $(document).ready(function(){	
-	$('.bootstrap-switch-handle-on').text('EN');
-	$('.bootstrap-switch-handle-off').text('ES');
+	$('.bootstrap-switch-handle-on').text('ES');
+	$('.bootstrap-switch-handle-off').text('EN');
   $('.bootstrap-switch').click(function() {
-    $(".ES").toggleClass('show');
-    $(".EN").toggleClass('hide');
-    $(".ES1").toggleClass('ESmision');
+    $(".ES").toggleClass('hide');
+    $(".EN").toggleClass('show');
+    $(".EN1").toggleClass('ESmision');
   });
   $('.ESEN').click(function() {
-    $(".ES").toggleClass('show');
-    $(".EN").toggleClass('hide');
+    $(".ES").toggleClass('hide');
+    $(".EN").toggleClass('show');
     $(".espanol").toggleClass('colornaranja');
     $(".ingles").toggleClass('colornaranja');
   });
